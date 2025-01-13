@@ -1,6 +1,6 @@
 # Weather Data Transformation for Tableau Visualization
 
-This repository contains tools for collecting and preparing weather data from the Hong Kong Observatory (HKO) for visualization in Tableau. The workflow is divided into four Jupyter notebooks, with each generating a specific CSV file.
+This repository contains tools for collecting and preparing weather data from the Hong Kong Observatory (HKO) for visualization in Tableau. The workflow is divided into five Jupyter notebooks, with each generating a specific CSV file.
 
 ---
 
@@ -16,6 +16,8 @@ This repository contains tools for collecting and preparing weather data from th
    Output: `data_gcs_combine.csv`
 4. **`Region_update.ipynb`**  
    Output: `data_gcs_combine_update.csv`
+5. **`District_update.ipynb`**  
+   Output: `data_gcs_combine_update_district.csv`
 
 ---
 
@@ -61,6 +63,17 @@ This repository contains tools for collecting and preparing weather data from th
 
 ---
 
+### 5. `District_update.ipynb`
+
+- Maps stations into districts based on a dictionary:
+  - **Key**: Station name
+  - **Value**: Corresponding district (one of 18 districts in Hong Kong)
+- Adds a new column to the dataframe with the mapped district names.
+- Input: `data_gcs_combine_update.csv`
+- **Output**: `data_gcs_combine_update_district.csv`
+
+---
+
 ## Purpose
 
-This repository ensures the weather data is collected, cleaned, and transformed, making it ready for analysis and visualization in Tableau.
+This repository ensures the weather data is collected, cleaned, enriched, and transformed, making it ready for analysis and visualization in Tableau.
