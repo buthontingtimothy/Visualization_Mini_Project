@@ -22,6 +22,6 @@ def process_date_subset(args):
             if not valid_distances.empty:
                 # Calculate weighted average
                 weighted_avg = np.sum(valid_distances['weight'] * valid_distances[field]) / np.sum(valid_distances['weight'])
-                daily_data.loc[idx, field] = weighted_avg
+                daily_data.loc[idx, field] = round(weighted_avg, 2)
 
     return daily_data
