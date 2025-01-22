@@ -68,12 +68,12 @@ The Tableau dashboards provide insights into weather patterns and comfort levels
 
 ### Sample Dashboards
 
-Below are screenshots from the Tableau dashboards:  
-![Dashboard 1](![dashboard preview 1](https://github.com/user-attachments/assets/eba04d50-9c6c-40ca-b320-d65fc1abf1f9)
-)  
-_Overview of weather metrics (2014–2024)_  
-![Dashboard 2](![dashboard preview 2](https://github.com/user-attachments/assets/5b938674-9ba9-4356-9ef9-6f92b27594ed)
-)  
+Below are screenshots from the Tableau dashboards: 
+
+![dashboard preview 1](https://github.com/user-attachments/assets/eba04d50-9c6c-40ca-b320-d65fc1abf1f9)
+_Overview of weather metrics (2014–2024)_
+
+![dashboard preview 2](https://github.com/user-attachments/assets/5b938674-9ba9-4356-9ef9-6f92b27594ed)
 _Weather comfort score mapping process_
 
 ---
