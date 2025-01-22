@@ -48,7 +48,7 @@ The project analyzes 15 weather metrics, essential for understanding comfort lev
 
 ### Intermediate Outputs
 
-1. **`data_final.csv`**: Raw weather data collected via scraping.
+1. **`data.csv`**: Raw weather data collected via scraping.
 2. **`gcs.csv`**: Station coordinates.
 3. **`data_gcs_combine.csv`**: Combined weather data and station coordinates.
 4. **`data_gcs_combine_update.csv`**: Updated data with redundant stations removed.
@@ -70,11 +70,12 @@ The Tableau dashboards provide insights into weather patterns and comfort levels
 
 Below are screenshots from the Tableau dashboards: 
 
-![dashboard preview 1](https://github.com/user-attachments/assets/eba04d50-9c6c-40ca-b320-d65fc1abf1f9)
 _Overview of weather metrics (2014–2024)_
+![dashboard preview 0](https://github.com/user-attachments/assets/71a8ed97-6483-494a-a0c7-9c44847e195b)
 
+_District ranking by comfort score_
 ![dashboard preview 2](https://github.com/user-attachments/assets/5b938674-9ba9-4356-9ef9-6f92b27594ed)
-_Weather comfort score mapping process_
+
 
 ---
 
